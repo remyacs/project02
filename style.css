@@ -1,0 +1,176 @@
+body {
+  overflow-x: hidden;
+}
+.header {
+  background-color: black;
+  padding: 10px 0;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+.header .logo img {
+  max-width: 70px;
+  height: auto;
+}
+.header input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.header .ship {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+  width: 100%;
+}
+.header .ship a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+.header .ship a p {
+  margin: 0;
+}
+.menu {
+  padding: 10px 0;
+  background-color: red;
+}
+.menu .menu-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu .menu-section p {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+.menu .menu-section i {
+  margin-right: 15px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.menu ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li {
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.banner {
+  height: 90vh;
+  background: url(images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+}
+.banner .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.banner .container p {
+  color: yellow;
+}
+.banner .container span {
+  color: red;
+}
+.banner .container h1 {
+  color: white;
+}
+.banner .item img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.banner .item p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.banner1 {
+  height: 90vh;
+  background: url(images/xg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+}
+.banner1 .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.banner1 .container span {
+  color: red;
+}
+.banner1 .container h1 {
+  height: 50px;
+  width: 100%;
+}
+.banner1 .container p {
+  color: #111110;
+}
+.banner1 .container button {
+  padding: 10px 0;
+  background-color: red;
+  border-radius: 60px;
+  border: 0;
+}
+.banner1 .container button a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 60px 8px 60px;
+  display: block;
+  font-weight: 600;
+}
+.banner1 .container .banner img {
+  height: 90vh;
+  background: url(images/car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+}
+button {
+  padding: 10px 0;
+  background-color: red;
+  border-radius: 60px;
+  border: 0;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 60px 8px 60px;
+  display: block;
+  font-weight: 600;
+}
+footer {
+  background-color: black;
+}
+@media screen and (max-width: 991px) {
+  footer .cont {
+    padding: 0 15px !important;
+  }
+}
+footer h2 {
+  color: white;
+}
+footer p {
+  color: white;
+}
+footer li {
+  color: gray;
+  list-style: none;
+}
